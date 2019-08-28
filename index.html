@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta name='viewport' content='width-device-width, initial-scale=1.0'>
+	<script type='text/javascript' src='script.js'></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<title>Calculator</title>
+</head>
+
+<body>
+	<div class="header"></div>
+	<div class="wrapper">
+		<input id="console-container" type="text">
+		<div class="small-box num" onclick='myFunction("C")'><p>C</p></div>
+		<div class="small-box num" onclick='myFunction("(")'><p>(</p></div>
+		<div class="small-box num" onclick='myFunction(")")'><p>)</p></div>
+		<div class="small-box op" onclick='myFunction("/")'><p>/</p></div>
+
+
+		<div class="small-box num" onclick='myFunction(1)'><p>1</p></div>
+		<div class="small-box num" onclick='myFunction(2)'><p>2</p></div>
+		<div class="small-box num" onclick='myFunction(3)'><p>3</p></div>
+		<div class="small-box op" onclick='myFunction("*")'><p>x</p></div>
+
+		<div class="small-box num" onclick='myFunction(4)'><p>4</p></div>
+		<div class="small-box num" onclick='myFunction(5)'><p>5</p></div>
+		<div class="small-box num" onclick='myFunction(6)'><p>6</p></div>
+		<div class="small-box op" onclick='myFunction("-")'><p>-</p></div>
+
+		<div class="small-box num" onclick='myFunction(7)'><p>7</p></div>
+		<div class="small-box num" onclick='myFunction(8)'><p>8</p></div>
+		<div class="small-box num" onclick='myFunction(9)'><p>9</p></div>
+		<div class="small-box op" onclick='myFunction("+")'><p>+</p></div>
+
+		<div class="med-box num" onclick='myFunction(0)'><p>0</p></div>
+		<div class="small-box num" onclick='myFunction(".")'><p>.</p></div>
+		<div class="small-box op" onclick='calculate()'><p>=</p></div>
+
+	</div>
+
+	<div class="footer">
+		Created by Kevin Ngo
+	</div>
+
+</body>
+</html>
